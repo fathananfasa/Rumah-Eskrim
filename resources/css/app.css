@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fas.fa-user {
+  font-weight: 100; /* membuat solid lebih tipis */
+  opacity: 0.8;
+}
+
+.fa-thin {
+  color: transparent;          /* hilangkan fill solid */
+  -webkit-text-stroke: 1px black; /* garis tipis */
+  text-stroke: 1px black;        /* untuk browser lain */
+  display: inline-block;
+}
+
+.eskrim{
+  color: transparent;          /* hilangkan fill solid */
+  -webkit-text-stroke: 1px purple; /* garis tipis */
+  text-stroke: 1px black;        /* untuk browser lain */
+  display: inline-block; 
+}
